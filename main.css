@@ -1,0 +1,9 @@
+h1,ol,ul,li,button{margin:0;padding:0}
+/*button{border:none;background:none}*/
+body{background:#fff}
+body,input,button{font-size:14px;font-family:arial,sans-serif;color:#222}
+a{color:#1a0dab;text-decoration:none}
+a:hover,a:active{text-decoration:underline}
+a:visited{color:#609}
+html,body{min-width:400px}
+body,html{height:100%;margin:0;padding:0}
