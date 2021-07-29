@@ -5,12 +5,36 @@
     <meta name="author" content="jdfthetech">
     <title>Odin Google Project</title>
     <link href="main.css" rel="stylesheet">
+    <ul>
+        <li><a href="#home">About</a></li>
+        <li><a href="#home">Store</a></li>
+        <li style="float:right"><a href="#home">Gmail</a></li>
+        <li style="float:right"><a href="#home">Images</a></li>
+    </ul>
 </head>
-<body><center>
-    <img src="googlelogo_color_272x92dp.png" alt="Google"></img><br>
-    <input type="search" id="searchbox" name="searchbox" results="0" aria-label="Search"><br><br>
-    <button onclick="search()">Google Search</button>&nbsp&nbsp&nbsp<button onclick="lucky()">I'm Feeling Lucky</button>
-</center>
+<body>
+
+
+    <div class="flex-container"><img src="googlelogo_color_272x92dp.png" alt="Google"></img></div>
+    <div class="flex-container"><input type="search" id="searchbox" name="searchbox" results="0" aria-label="Search"></div>
+    <div class="flex-container"><button onclick="search()">Google Search</button>&nbsp&nbsp&nbsp<button onclick="lucky()">I'm Feeling Lucky</button></div>
+
+    <div class="flex-container-bottom">
+    <div class="footer-bar-left">
+        <div>Advertising</div>
+        <div>Business</div>
+        <div>How Search Words</div>
+    </div>
+    <div class="footer-bar-mid">    
+        <div>Carbon neutral since 2007</div>
+    </div>
+    <div class="footer-bar-right">          
+        <div>Settings</div>
+        <div>Terms</div>
+        <div>Privacy</div>
+ 
+    </div>
+    </div>
 </body>
 
 </html>
